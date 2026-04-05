@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JioHotstar Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>JioHotstar 🎬</h1>
+  <input type="text" id="searchBox" placeholder="Search movies...">
+  <select id="genreFilter">
+    <option value="">All Genres</option>
+    <option value="action">Action</option>
+    <option value="comedy">Comedy</option>
+    <option value="drama">Drama</option>
+  </select>
+  <button onclick="searchMovies()">Search</button>
+</header>
+
+<h2>Movies</h2>
+<div id="movieList" class="grid"></div>
+
+<h2>Recommended For You</h2>
+<div id="recommendedList" class="grid"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
